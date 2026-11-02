@@ -2921,19 +2921,19 @@ footer {
 }
 
 .project:nth-child(4n + 1) .project-visual {
-  background: linear-gradient(145deg, #31412f 0%, #1b2a20 58%, #101c15 100%);
+  background: #061d23;
 }
 
 .project:nth-child(4n + 2) .project-visual {
-  background: linear-gradient(145deg, #29372a 0%, #18261d 58%, #0d1811 100%);
+  background: #061d23;
 }
 
 .project:nth-child(4n + 3) .project-visual {
-  background: linear-gradient(145deg, #364534 0%, #202f23 58%, #111d15 100%);
+  background: #061d23;
 }
 
 .project:nth-child(4n + 4) .project-visual {
-  background: linear-gradient(145deg, #2d3d2d 0%, #19271c 58%, #0d1811 100%);
+  background: #061d23;
 }
 
 .project-type,
@@ -8266,6 +8266,7 @@ body {
     --cert-card-h: 218px;
   }
 }
+
 
 /* Certificate card grid */
 .cert-carousel-stage {

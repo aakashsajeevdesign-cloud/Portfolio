@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3f0e8">
+  <title>Project Archive | Aakash Sajeev K</title>
+  <meta name="description" content="Selected app, web, UI/UX and graphic design projects by Aakash Sajeev K.">
+  <link rel="icon" href="https://res.cloudinary.com/ozzeyzin/image/upload/f_auto,q_auto/Minimalist_White_AS_Monogram_Logo">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+  <header class="archive-header">
+    <div class="archive-container archive-nav">
+      <a class="archive-brand" href="index.html" aria-label="Aakash Sajeev K portfolio home">AAKASH<span>.</span></a>
+      <a class="back-link" href="index.html#work">Back to Projects <span aria-hidden="true">←</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="archive-hero" aria-labelledby="archive-title">
+      <div class="archive-container">
+        <p class="archive-eyebrow">Project archive</p>
+        <div class="archive-hero-grid">
+          <h1 id="archive-title">Selected work</h1>
+          <div class="archive-intro">
+            <p id="archive-description">Explore selected projects across digital products and visual design.</p>
+            <p class="archive-count"><strong id="project-count">0</strong> <span id="project-count-label">projects</span></p>
+          </div>
+        </div>
+        <nav class="category-nav" id="category-nav" aria-label="Project categories"></nav>
+      </div>
+    </section>
+
+    <section class="archive-gallery" aria-label="Project gallery">
+      <div class="archive-container">
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+        <div class="archive-empty" id="archive-empty" hidden>
+          <p class="archive-eyebrow">No projects yet</p>
+          <h2>New work is on the way.</h2>
+          <p>This category is ready for its next project.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="archive-footer">
+    <div class="archive-container">
+      <p>&copy; <span id="archive-year"></span> Aakash Sajeev K.</p>
+      <a href="index.html#contact">Start a project <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
