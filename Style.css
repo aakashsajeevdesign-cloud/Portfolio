@@ -8926,3 +8926,86 @@ html, body { margin: 0; min-height: 100%; background: #05070D; }
 .nwt-color-purple { color: #852BFF; }
 .nwt-background-purple { background: #852BFF; }
 .nwt-node-purple { --nwt-color: #852BFF; }
+
+
+/* Portfolio region switch */
+.region-switch { border: 1px solid rgba(255,255,255,.28); border-radius: 999px; padding: .55rem .9rem; white-space: nowrap; }
+.region-switch span { margin-left: .3rem; }
+
+
+/* Region call to action sits beside the navigation capsule. */
+.site-header .header-actions {
+  width: min(1120px, calc(100% - 40px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.site-header .header-actions > .nav {
+  width: fit-content;
+  flex: 0 0 auto;
+  padding-inline: 24px;
+}
+
+.region-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 46px;
+  padding: 0 17px;
+  border: 1px solid rgba(255, 255, 255, .42);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .14);
+  color: var(--ink);
+  font-size: .82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .28), 0 8px 24px rgba(22, 28, 30, .08);
+  transition: border-color .2s, background .2s, color .2s, transform .2s;
+}
+
+.region-cta:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 680px) {
+  .site-header .header-actions {
+    width: calc(100% - 28px);
+    gap: 8px;
+  }
+
+  .site-header .header-actions > .nav {
+  width: fit-content;
+  flex: 0 0 auto;
+  padding-inline: 24px;
+}
+
+  .region-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 46px;
+  padding: 0 17px;
+  border: 1px solid rgba(255, 255, 255, .42);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .14);
+  color: var(--ink);
+  font-size: .82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .28), 0 8px 24px rgba(22, 28, 30, .08);
+  transition: border-color .2s, background .2s, color .2s, transform .2s;
+}
+}
+
+
+
